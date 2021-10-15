@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&display=swap');
+
+body{
+    font-family:  'Roboto', sans-serif;
+    background-color: #FF5F1F;
+    color: black;
+}
+
+h1, h2, {
+    font-family:  'PT Sans', sans-serif;
+    font-size: 150%;
+}
+
+header{
+    float: left;
+    clear: right;
+    margin-left: 50px;
+}
+
+nav{
+    margin-right: 50px;
+    float: right;
+    
+}
+
+nav li{
+    display: inline-block;
+    
+}
+
+#navbar a{
+    text-decoration: none;
+    margin: auto 20px;
+    color: black;
+}
+
+h2{
+    clear: both;
+    font-size: 100%;
+
+}
+
+h3{
+    font-size: 100%;
+    font-family:'PT Sans', sans-serif;
+}
