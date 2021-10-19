@@ -132,7 +132,7 @@ nav{
     clear: left;
 }
 
-.section-two .mid-page-header{
+#benefits .mid-page-header{
     font-weight: 900;
     font-size: 200%;
     letter-spacing: 2px;
@@ -140,12 +140,41 @@ nav{
     color: rgb(50, 50, 173);
 }
 
-.section-two p{
+#benefits p{
     width: 80%;
     margin: 0 auto;
 }
 
-.section-two ul{
+#benefits ul{
     margin-left: 10%;
 }
 
+/*practice video and video text content*/
+
+#practice-video{
+    margin: 0 auto;
+}
+
+#video-div{
+    width: 80%;
+    float: left;
+    position: relative;
+    left: 25%;
+}
+
+#video-text{
+    float: left;
+    width: 100%;
+}
+
+#video-text h3{
+    font-weight: 900;
+    font-size: 200%;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(50, 50, 173);
+}
+
+#video-text p{
+    text-align: center;
+}
