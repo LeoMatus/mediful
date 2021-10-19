@@ -86,7 +86,7 @@ nav{
 /*section 1*/
 
 #first-section{
-    height: 500px;
+    height: 400px;
     width: 100%;
     clear: left;
 }
@@ -97,7 +97,7 @@ nav{
     margin-left: 20px;
 }
 
-/*Reasons to meditate and what is mindfulnes*/
+/*Reasons to meditate and what is mindfulnes -- section 1*/
 
 #effect{
     width: 80%;
@@ -132,12 +132,15 @@ nav{
     clear: left;
 }
 
+/*benefits of meditation*/
+
 #benefits .mid-page-header{
     font-weight: 900;
     font-size: 200%;
     letter-spacing: 2px;
     text-align: center;
     color: rgb(50, 50, 173);
+    clear: both;
 }
 
 #benefits p{
