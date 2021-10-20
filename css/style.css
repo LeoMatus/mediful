@@ -162,9 +162,7 @@ h1, h2 {
 
 #guide{
     width: 80%;
-    position: relative;
-    left: 5%;
-    right: 5%;
+    margin: 0 auto;
 }
 
 #guide h3{
@@ -183,7 +181,11 @@ h1, h2 {
 
 #guide ol{
     width: 100%;
-    text-align: center;
+}
+
+#guide em{
+    color: rgb(50, 50, 173);
+    font-weight: 600;
 }
 
 /*practice video and video text content*/
@@ -233,7 +235,21 @@ h1, h2 {
     margin: 0 4%;
     padding: 30px;
     background-image: url("../images/background-image.jpg");
-    
+}
+
+.submit{
+    background-color: black;
+    margin-top: 5px;
+    color: white;
+}
+
+/*submit page*/
+
+#thank-you{
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /*for smaller screens such as tablets*/
