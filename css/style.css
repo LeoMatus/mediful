@@ -221,7 +221,7 @@ h1, h2 {
     text-align: center;
 }
 
-/*contact*/
+/*contact form*/
 
 .text-input{
     display: flex;
@@ -235,4 +235,55 @@ h1, h2 {
     background-image: url("../images/background-image.jpg");
     
 }
+
+/*for smaller screens such as tablets*/
+@media screen and (max-width: 950px){
+    .logo{
+        color: rgb(50, 50, 173);
+        letter-spacing: 4px;
+        font-weight: 1000;
+        font-size: 180%;
+        text-align: center;
+        margin-left: 0;
+    }
+    #navbar{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header nav{
+        margin-top: 0;
+        margin-right: 0;
+    }
+}
+
+/*for phones*/
+@media screen and (max-width: 500px){
+    
+    .left-about{
+        width: 90%;
+        float: none;
+    }
+
+    .right-about{
+        width: 90%;
+        float: none;
+    }
+
+    #benefits ul{
+        padding: 0;
+    }
+
+    #guide ol{
+        padding: 0;
+    }
+}
+    
+
 
