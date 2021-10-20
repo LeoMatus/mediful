@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&display=swap');
+
+body{
+    font-family:  'Roboto', sans-serif;
+    
+    color: black;
+}
+
+h1, h2 {
+    font-family:  'PT Sans', sans-serif;
+    font-size: 150%;
+}
+
+/*header*/
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navbar{
+    display: flex;
+}
+
+#navbar li{
+    flex-direction: row;
+    display: flex;
+}
+
+#navbar a{
+    text-decoration: none;
+    margin: 0px 20px;
+    color: black;
+    max-height: fit-content;
+}
+
+#header nav, h1{
+    margin-top: 30px;
+}
+
+#header nav{
+    margin-right: 5%;
+}
+
+.logo{
+    margin-left: 5%;
+    color: rgb(50, 50, 173);
+    letter-spacing: 4px;
+    font-weight: 1000;
+    font-size: 180%;
+}
+
+/*nav effects*/
+
+#navbar li:hover{   
+    transform: scale(1.2); 
+  }
+
+  #navbar a:hover{
+    border-bottom: 1px solid rgb(50, 50, 173);
+  }
+
+  .active{
+    border-bottom: 1px solid rgb(50, 50, 173);      
+  }
+  /*image*/
+
+.image-div{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-banner{
+    width: 93%;
+    clear: both;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1700px;
+}
+
+/*section 1*/
+
+#first-section{
+    width: 100%;
+    clear: left;
+}
+
+#first-section h3{
+    font-size: 100%;
+    font-family:'PT Sans', sans-serif;
+    margin-left: 20px;
+}
+
+/*Reasons to meditate and what is mindfulnes -- section 1*/
+
+#effect{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#effect h2{
+    font-weight: 900;
+    font-size: 200%;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(50, 50, 173);
+}
+
+.left-about{
+    float: left;
+    width: 45%;
+    text-align: left;
+    padding: 5px;
+    clear: right;
+}
+
+.right-about{
+    float: right;
+    width: 45%;
+    text-align: left;
+    padding: 5px;
+    clear: right;
+}
+
+.section-two{
+    clear: left;
+}
+
+/*benefits of meditation*/
+
+#benefits .mid-page-header{
+    font-weight: 900;
+    font-size: 200%;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(50, 50, 173);
+    clear: both;
+}
+
+#benefits p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#benefits ul{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#benefits li{
+   justify-content: center;
+   display: flex;
+}
+
+/*step by step guide*/
+
+#guide{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#guide h3{
+    font-weight: 900;
+    font-size: 200%;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(50, 50, 173);
+    clear: both;
+}
+
+#guide p{
+    text-align: center;
+    width: 100%;
+}
+
+#guide ol{
+    width: 100%;
+}
+
+#guide em{
+    color: rgb(50, 50, 173);
+    font-weight: 600;
+}
+
+/*practice video and video text content*/
+
+#practice-video{
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#video-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/*video text content*/
+
+#video-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#video-text h3{
+    font-weight: 900;
+    font-size: 200%;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(50, 50, 173);
+}
+
+#video-text p{
+    text-align: center;
+}
+
+/*contact form*/
+
+.text-input{
+    display: flex;
+    flex-direction: column;
+    background: rgba(250, 250, 250, 0.7);
+}
+
+#form-question{
+    margin: 0 4%;
+    padding: 30px;
+    background-image: url("../images/background-image.jpg");
+}
+
+.submit{
+    background-color: black;
+    margin-top: 5px;
+    color: white;
+}
+
+/*submit page*/
+
+#thank-you{
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*for smaller screens such as tablets*/
+@media screen and (max-width: 750px){
+    .logo{
+        color: rgb(50, 50, 173);
+        letter-spacing: 4px;
+        font-weight: 1000;
+        font-size: 180%;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #navbar{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header nav{
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .left-about{
+        width: 90%;
+        float: none;
+    }
+
+    .right-about{
+        width: 90%;
+        float: none;
+    }
+
+    #benefits ul{
+        padding: 0;
+    }
+
+    #guide ol{
+        padding: 0;
+    }
+}
+
+    
+
+
