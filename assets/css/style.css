@@ -188,6 +188,10 @@ h1, h2 {
     font-weight: 600;
 }
 
+#practice-list li{
+    margin-bottom: 10px;
+}
+
 /*practice video and video text content*/
 
 #practice-video{
