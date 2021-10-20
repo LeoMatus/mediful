@@ -85,3 +85,18 @@ I watched the video on my computer and on my phone and made sure all the control
 I tried filling out the form and submitting it. This tested if the user is able to input text in the different input element. It also tested if the submit button redirected me
 to my submit.html page. This was problematic at first as the submit button either sent me to an error message page, or it cleard the form. By putting the submit button
 outside of the form elemnt and wrapping it in an <a> element I got it to work.
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleomatus.github.io%2Fmediful%2F)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleomatus.github.io%2Fmediful%2Fcontact)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleomatus.github.io%2Fmediful%2Fpractice)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleomatus.github.io%2Fmediful%2Fsubmit)
+
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fleomatus.github.io%2Fmediful%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Unfixed Bugs
+
+I have not found any unfixed bugs.
