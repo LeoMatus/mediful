@@ -19,7 +19,7 @@ header{
 }
 
 #logo{
-    margin-left: 40px;
+    margin-left: 5%;
     float: left;
     font-size: 180%;
     color:rgb(50, 50, 173);
@@ -27,26 +27,39 @@ header{
     font-weight: 1000;
 }
 
-#start, #navbar{
+/*navigation bar*/
+
+#logo, #navbar{
     line-height: 60px;
 }
 
 #push-right{
-float: right;
-}
+    float: right;
+    margin-right: 5%;
+    }
 
 nav{
-    margin-right: 50px; 
+    margin-right: 5%; 
 }
 
 #navbar li{
-    display: inline-block;    
+    display: inline-block;  
+      
 }
 
 #navbar a{
     text-decoration: none;
     margin: 10px 20px;
     color: black;
+}
+
+#navbar ul{
+    padding: 0%;
+    width: 100%;
+}
+
+#navbar{
+    width: max-content;
 }
 
 /*nav effects*/
@@ -67,26 +80,26 @@ nav{
 
 .image-div{
     width: 100%;
-    height: 400px;
-    float: left;
     margin-bottom: 20px;
-    overflow: hidden;
-    position: relative;
+    clear: both;
+    float: left;
+    display: flex;
+    justify-content: center;
 }
 
 .home-banner{
     width: 93%;
     clear: both;
-    height: 100%;
+    height: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1700px;
 }
 
 /*section 1*/
 
 #first-section{
-    height: 400px;
     width: 100%;
     clear: left;
 }
@@ -146,28 +159,68 @@ nav{
 #benefits p{
     width: 80%;
     margin: 0 auto;
+    text-align: center;
 }
 
 #benefits ul{
-    margin-left: 10%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#benefits li{
+   justify-content: center;
+   display: flex;
+}
+
+/*step by step guide*/
+
+#guide{
+    width: 80%;
+    position: relative;
+    left: 5%;
+    right: 5%;
+}
+
+#guide h3{
+    font-weight: 900;
+    font-size: 200%;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(50, 50, 173);
+    clear: both;
+}
+
+#guide p{
+    text-align: center;
+    width: 100%;
+}
+
+#guide ol{
+    width: 100%;
+    text-align: center;
 }
 
 /*practice video and video text content*/
 
 #practice-video{
-    margin: 0 auto;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 #video-div{
-    width: 80%;
-    float: left;
-    position: relative;
-    left: 25%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
+
+
 #video-text{
-    float: left;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #video-text h3{
