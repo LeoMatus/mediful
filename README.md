@@ -64,3 +64,24 @@ For some/all of your features, you may choose to reference the specific project 
 
 ![Contact page](docs/contact-form.jpg)
 ![Thank you page](docs/thank-you-page.jpg)
+
+### Features Left to Implement
+
+- I want to make one last page, telling the user about an app called "Waking Up". This is a mindfulness app I really enjoy myself and i think its a great way for new mindfulness practitioners to progress in their mindfulness journey.
+- I had to prioretize finishing the rest of my site before this and was left with no time to create this page.
+
+## Testing 
+
+I tested the navigation bar by clicking the different navigation opptions on every page to see if they directed me the right way. While doing this i also checked if my
+"class="active"" which underlined the page I was currently viewing in the navigation section worked. This was also tested on my phone.
+
+I tried viewing my site on different screen sizes, first by using the google chrome "inspect" tool. This was crucial to see how responsive my site was. 
+When an element didnt behave as I wanted it to I played around with the code in the "inspect" tool until it worked as I wanted it to. This was a process i had to repeat many
+times and on every page. When I felt happy with the site I tried visiting it on my phone to make sure there were no bugs. This also ensured that my "@media screen" property
+worked.
+
+I watched the video on my computer and on my phone and made sure all the controlls (such as the play- and fullscreen button) worked.
+
+I tried filling out the form and submitting it. This tested if the user is able to input text in the different input element. It also tested if the submit button redirected me
+to my submit.html page. This was problematic at first as the submit button either sent me to an error message page, or it cleard the form. By putting the submit button
+outside of the form elemnt and wrapping it in an <a> element I got it to work.
