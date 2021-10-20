@@ -100,3 +100,14 @@ outside of the form elemnt and wrapping it in an <a> element I got it to work.
 ### Unfixed Bugs
 
 I have not found any unfixed bugs.
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - Inide the Settings menu, scroll down to the Github pages header, click the link
+  - Find the source header and click the branch button, select the main branch and press save. The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment and the link to your site will appear. 
+
+  The live link can be found here -https://leomatus.github.io/mediful/
+
+  
