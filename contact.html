@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Header containing logo and navbar-->
+    <header id="header">
+        <h1 class="logo">MEDIFUL</h1>
+
+        <nav>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="practice.html">Practice</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <div id="form-question">
+            <form method="POST" id="question-form">
+                <div class="transparent-background">
+                    <h2>Reach out to me!</h2>
+                    
+                    <p>
+                        If you have any questions regarding mindfulness or anything else that 
+                        I touched upon in this website feel free to ask me a question and I'll get back to you 
+                        as soon as possible.
+                    </p>
+                
+                    <label for="fname">First Name</label>
+                    <input id="fname" name="first_name" type="text" required class="text-input">
+                    
+                    <label for="lname">Last Name</label>
+                    <input id="lname" name="last_name" type="text" required class="text-input">
+                    
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address" required class="text-input">
+
+                    <label for="question">Question</label>
+                    <textarea name="question" id="question" cols="30" rows="10" class="text-input"></textarea>
+                </div>
+        </div>
+</body>
+</html>

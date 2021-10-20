@@ -13,53 +13,42 @@ h1, h2 {
 
 /*header*/
 
-header{
-    height: 50px;
-    padding: 10px 0 20px;
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#logo{
-    margin-left: 5%;
-    float: left;
-    font-size: 180%;
-    color:rgb(50, 50, 173);
-    letter-spacing: 4px;
-    font-weight: 1000;
-}
-
-/*navigation bar*/
-
-#logo, #navbar{
-    line-height: 60px;
-}
-
-#push-right{
-    float: right;
-    margin-right: 5%;
-    }
-
-nav{
-    margin-right: 5%; 
+#navbar{
+    display: flex;
 }
 
 #navbar li{
-    display: inline-block;  
-      
+    flex-direction: row;
+    display: flex;
 }
 
 #navbar a{
     text-decoration: none;
-    margin: 10px 20px;
+    margin: 0px 20px;
     color: black;
+    max-height: fit-content;
 }
 
-#navbar ul{
-    padding: 0%;
-    width: 100%;
+#header nav, h1{
+    margin-top: 30px;
 }
 
-#navbar{
-    width: max-content;
+#header nav{
+    margin-right: 5%;
+}
+
+.logo{
+    margin-left: 5%;
+    color: rgb(50, 50, 173);
+    letter-spacing: 4px;
+    font-weight: 1000;
+    font-size: 180%;
 }
 
 /*nav effects*/
@@ -81,8 +70,6 @@ nav{
 .image-div{
     width: 100%;
     margin-bottom: 20px;
-    clear: both;
-    float: left;
     display: flex;
     justify-content: center;
 }
@@ -214,7 +201,7 @@ nav{
     margin-bottom: 20px;
 }
 
-
+/*video text content*/
 
 #video-text{
     width: 100%;
@@ -234,3 +221,19 @@ nav{
 #video-text p{
     text-align: center;
 }
+
+/*contact*/
+
+.text-input{
+    display: flex;
+    flex-direction: column;
+    background: rgba(250, 250, 250, 0.7);
+}
+
+#form-question{
+    margin: 0 4%;
+    padding: 30px;
+    background-image: url("../images/background-image.jpg");
+    
+}
+
