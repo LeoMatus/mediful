@@ -253,7 +253,7 @@ h1, h2 {
 }
 
 /*for smaller screens such as tablets*/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
     .logo{
         color: rgb(50, 50, 173);
         letter-spacing: 4px;
