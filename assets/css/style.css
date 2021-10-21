@@ -309,7 +309,21 @@ h1, h2 {
     #guide ol{
         padding: 0;
     }
+
 }
+   
+@media screen and (min-width: 2000px){
+        #form-question{
+            margin: 50px auto;
+            padding: 85px;
+            background-image: url(../images/background-image.jpg);
+            background-repeat: no-repeat;        
+            display: table;
+            font-size: 15px;
+        }
+    }
+
+
 
     
 

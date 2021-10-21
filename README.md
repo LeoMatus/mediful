@@ -110,4 +110,21 @@ I have not found any unfixed bugs.
 
   The live link can be found here -https://leomatus.github.io/mediful/
 
-  
+##Credits
+
+###Content
+
+    Content for the what is mindfulness and why is it usefull section was inspired by [Greatergood](https://greatergood.berkeley.edu/topic/mindfulness/definition) and [Mindful](https://www.mindful.org/what-is-mindfulness/)
+
+    Insperation for the guided meditation text guide was taken from [Mindful](https://www.mindful.org/five-steps-to-mindfulness/)
+
+
+###Media
+
+    The image used as the home page banner was taken from [Actualized](https://www.actualized.org/forum/topic/7396-nutshell-in-depth-teachings-of-enlightenment/) 
+
+    The image used for the practice page banner was taken from [HD Wallpapers](https://www.hdwallpapers.in/man_loneliness_alone_sadness_4k_hd_sad-wallpapers.html)
+
+    The image used for the contact page was taken from [Calm Blog](https://blog.calm.com/blog/5-ways-to-improve-your-focus-and-productivity)
+
+    The video used for the guided meditation was taken from [Youtube/Goodful](https://www.youtube.com/watch?v=U9YKY7fdwyg&t=1s)
