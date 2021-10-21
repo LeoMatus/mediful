@@ -267,6 +267,7 @@ h1, h2 {
 }
 
 /*for smaller screens such as tablets*/
+
 @media screen and (max-width: 750px){
     .logo{
         color: rgb(50, 50, 173);
@@ -311,7 +312,9 @@ h1, h2 {
     }
 
 }
-   
+
+/*For screens bigger than 2000px*/
+
 @media screen and (min-width: 2000px){
         #form-question{
             margin: 50px auto;
