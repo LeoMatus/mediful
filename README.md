@@ -118,6 +118,9 @@ I have not found any unfixed bugs.
 
     Insperation for the guided meditation text guide was taken from [Mindful](https://www.mindful.org/five-steps-to-mindfulness/)
 
+    I had some problems displaying my content the way i wanted it to, I used to many floats which led to elemts ending up on top of each other. After a while it became too much to handle and I needed another way to display my content. After searching the web I found out about 
+    "display: flex;" and "justify-content: ___;". I learned "display: flex;" from [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and "justify-content: ___; from [developer-mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
+
 
 ###Media
 
