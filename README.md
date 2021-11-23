@@ -110,9 +110,9 @@ I have not found any unfixed bugs.
 
   The live link can be found here -https://leomatus.github.io/mediful/
 
-##Credits
+## Credits
 
-###Content
+### Content
 
     Content for the what is mindfulness and why is it usefull section was inspired by [Greatergood](https://greatergood.berkeley.edu/topic/mindfulness/definition) and [Mindful](https://www.mindful.org/what-is-mindfulness/)
 
